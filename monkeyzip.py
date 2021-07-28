@@ -17,6 +17,6 @@
 # Useful for stuff like having a list of points and having to interpolate a curve between each set
 
 def monkeyzip(iterable):
-  """Yields tuples of elements that are close together"""
+	"""Yields tuples of elements that are close together"""
 	for i in range(len(iterable) - 1):
 		yield iterable[i], iterable[i+1]
