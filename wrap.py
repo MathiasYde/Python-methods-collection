@@ -1,5 +1,5 @@
 def wrap(iterable):
-  """Yields the same list, but where the first element occurs last too"""
+	"""Yields the same list, but where the first element occurs last too"""
 	i = 0
 	while i < len(iterable):
 		yield iterable[i]
